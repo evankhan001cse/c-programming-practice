@@ -22,10 +22,26 @@ A beginner-friendly repository documenting my progress while learning C programm
 
 A C compiler such as GCC is required.
 
-Compile a program:
+### Build all four examples with GNU Make
+
+From the repository root, run:
 
 ```bash
-gcc -std=c11 -Wall -Wextra 01-hello-world.c -o hello
+make
+```
+
+The executables are created in the `build/` directory. To remove generated files:
+
+```bash
+make clean
+```
+
+### Compile one program manually
+
+For example:
+
+```bash
+gcc -std=c11 -Wall -Wextra -Wpedantic 01-hello-world.c -o hello
 ```
 
 Run it on Linux or macOS:
@@ -34,9 +50,7 @@ Run it on Linux or macOS:
 ./hello
 ```
 
-On Windows, run the generated executable, such as `hello.exe`, from the terminal.
-
-For another example, change the source filename and executable name.
+On Windows, run the generated executable (for example, `hello.exe`) from the terminal. GNU Make is optional; manual GCC commands work without it.
 
 ## Problem-Solving Tracker
 

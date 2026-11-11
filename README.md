@@ -90,3 +90,7 @@ This repository is a record of my learning process as a CSE undergraduate.
 A GitHub Actions workflow compiles each C source file in the repository root using GCC with C11 and warning flags. It runs on pushes and pull requests targeting `main`, and can also be started manually from the Actions tab.
 
 The four currently published C examples were also compiled locally with the same GCC standard and warning flags.
+
+## Published Platform Solutions
+
+Source files supplied for online-judge problems are organised under [`solutions/`](./solutions/). The first published file is [Codeforces contest 219158, problem C](./solutions/Codeforces/219158-C.c), written in C. More solutions will be added as their original source code is collected and matched to the tracker.

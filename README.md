@@ -72,3 +72,7 @@ Topics will be added when I have studied and practised them. This list is a lear
 **Language:** C
 
 This repository will grow alongside my programming journey.
+
+## Problem Tracker
+
+I also maintain a [tracker of 98 accepted problem records](./problem-tracker/README.md) from my university course practice across Beecrowd, Codeforces, and HackerRank. The tracker records problem links and course-sheet metadata; it does not claim that source code is included or identify a programming language where the source data does not specify one.

@@ -1,0 +1,9 @@
+# Compiled C programs and build output
+/build/
+*.o
+*.out
+*.exe
+
+# Operating-system files
+.DS_Store
+Thumbs.db

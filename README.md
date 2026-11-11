@@ -1,78 +1,72 @@
 # C Programming Practice
 
-A growing collection of beginner-level C programs written as I learn and practise programming fundamentals.
+A beginner-friendly repository documenting my progress while learning C programming. It contains small examples that demonstrate introductory concepts and a separate tracker for university problem-solving practice.
 
-This repository documents my learning process. The examples are intentionally small and focus on understanding basic concepts before moving on to more advanced topics.
+## Repository Overview
 
-## Current Progress
+- **Language:** C
+- **Level:** Beginner
+- **Published C examples:** 4
+- **Problem tracker:** 98 AC entries recorded in the university course tracker, representing 97 unique problem URLs
 
-The programs currently cover:
+## C Programs
 
-- Basic C program structure
-- Output with `printf()`
-- Input with `scanf()`
-- Integer variables and arithmetic
-- Conditional statements (`if`, `else if`, and `else`)
-- Modulo operator (`%`)
-- Comparison and logical operators
-
-## Programs
-
-| File | What it practises |
+| File | Concepts |
 |---|---|
-| [01-hello-world.c](./01-hello-world.c) | Basic program structure and output |
+| [01-hello-world.c](./01-hello-world.c) | Program structure and output |
 | [02-input-output.c](./02-input-output.c) | Reading two integers and printing their sum |
-| [03-even-odd.c](./03-even-odd.c) | Conditional statements and the modulo operator |
-| [04-largest-of-three.c](./04-largest-of-three.c) | Comparing three numbers using conditions |
+| [03-even-odd.c](./03-even-odd.c) | Conditions and the modulo operator |
+| [04-largest-of-three.c](./04-largest-of-three.c) | Comparing three numbers with conditional statements |
 
-## How to Compile and Run
+## Compile and Run
 
-You need a C compiler such as GCC.
+A C compiler such as GCC is required.
 
-For example, to compile and run the first program:
+Compile a program:
 
 ```bash
-gcc 01-hello-world.c -o hello
+gcc -std=c11 -Wall -Wextra 01-hello-world.c -o hello
+```
+
+Run it on Linux or macOS:
+
+```bash
 ./hello
 ```
 
-For another program, replace the source filename and output name:
+On Windows, run the generated executable, such as `hello.exe`, from the terminal.
 
-```bash
-gcc 03-even-odd.c -o even-odd
-./even-odd
-```
+For another example, change the source filename and executable name.
 
-On Windows, run the generated executable (for example, `even-odd.exe`) from your terminal.
+## Problem-Solving Tracker
 
-## Next Learning Topics
+The [problem-tracker folder](./problem-tracker/) contains the CSV and its documentation.
 
-As I progress, I plan to add practice examples for:
+| Platform | AC entries in source tracker |
+|---|---:|
+| Beecrowd | 48 |
+| Codeforces | 25 |
+| HackerRank | 25 |
+| **Total** | **98** |
 
-- Loops and nested loops
-- Arrays
-- Functions
-- Strings
-- More beginner problem-solving exercises
-- Small console-based projects
+**Data notes:**
+- The 98 entries contain 97 unique problem URLs; one URL appears twice in the original tracker and is retained as a separate entry.
+- The source sheet includes three AC-labelled class exercises without external problem URLs. They are not part of this linked-problem CSV.
+- Verdicts and solve metadata are transcribed from the course tracker and have not been independently re-verified against each platform.
+- The source data does not reliably identify the programming language used for each submission.
+- The tracker contains problem links and metadata, not the original submitted source code.
 
-Topics will be added when I have studied and practised them. This list is a learning plan, not a claim that every topic is already mastered.
+## Learning Roadmap
 
-## Learning Notes
+As I continue practising, I plan to add more examples covering loops, arrays, functions, strings, and progressively more involved problem-solving exercises. New topics will be added as I work through them.
 
-- I aim to understand each program rather than only copy working code.
-- I test programs with different inputs.
-- I update examples as I learn better ways to write and organise code.
-- Mistakes and improvements are part of this learning process.
+## Learning Approach
 
-## About
+- Understand the problem before writing code.
+- Test programs with different inputs.
+- Keep examples small and readable.
+- Document progress honestly and improve the code over time.
 
-**Author:** Md. Iftekhar Evan  
-**Study:** CSE Undergraduate Student, IIUC  
-**Language:** C
+---
 
-This repository will grow alongside my programming journey.
-
-## Problem Tracker
-
-I also maintain a [tracker of 98 accepted problem records](./problem-tracker/README.md) from my university course practice across Beecrowd, Codeforces, and HackerRank. The tracker records problem links and course-sheet metadata; it does not claim that source code is included or identify a programming language where the source data does not specify one.
+This repository is a record of my learning process as a CSE undergraduate.

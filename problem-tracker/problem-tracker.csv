@@ -22,7 +22,7 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 21,Codeforces,D22,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C,AC,18,2026-09-03,DataType,,,C,solutions/Codeforces/219158-C.c
 22,Codeforces,D23,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D,AC,10,2026-09-03,DataType,,C,C,solutions/Codeforces/219158-D.c
 23,Codeforces,D24,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E,AC,18,2026-09-03,DataType,,,C,solutions/Codeforces/219158-E.c
-24,Codeforces,D25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F,AC,16,2026-09-04,Library Function,,,,
+24,Codeforces,D25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F,AC,16,2026-09-04,Library Function,,,C,solutions/Codeforces/219158-F.c
 25,Codeforces,D26,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G,AC,31,2026-09-04,DataType,,,,
 26,Codeforces,D27,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H,AC,33,2026-09-04,Library Function,,,,
 27,Beecrowd,C4,https://judge.beecrowd.com/en/problems/view/1035,AC,19,2026-09-09,Condition (If-else),,,,

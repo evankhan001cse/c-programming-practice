@@ -20,7 +20,7 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 19,Beecrowd,D20,https://judge.beecrowd.com/en/problems/view/1019,AC,12,2026-09-02,Library Function,,,,
 20,Beecrowd,D21,https://judge.beecrowd.com/en/problems/view/1020,AC,10,2026-09-03,Library Function,,,,
 21,Codeforces,D22,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C,AC,18,2026-09-03,DataType,,,C,solutions/Codeforces/219158-C.c
-22,Codeforces,D23,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D,AC,10,2026-09-03,DataType,,,,
+22,Codeforces,D23,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D,AC,10,2026-09-03,DataType,,C,solutions/Codeforces/219158-D.c
 23,Codeforces,D24,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E,AC,18,2026-09-03,DataType,,,,
 24,Codeforces,D25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F,AC,16,2026-09-04,Library Function,,,,
 25,Codeforces,D26,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G,AC,31,2026-09-04,DataType,,,,

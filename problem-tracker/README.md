@@ -44,4 +44,4 @@ The CSV now includes two additional columns:
 - `Programming_Language`: filled only when the language is known for a supplied source file.
 - `Source_File`: repository-relative path to the published source file.
 
-At present, Codeforces contest 219158 problem C has a supplied C source file. Other rows remain blank until their source code and language are provided.
+At present, Codeforces contest 219158 problems C and D have supplied C source files. Other rows remain blank until their source code and language are provided.

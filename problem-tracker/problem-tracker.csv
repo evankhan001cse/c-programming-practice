@@ -23,22 +23,22 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 22,Codeforces,D23,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D,AC,10,2026-09-03,DataType,,C,C,solutions/Codeforces/219158-D.c
 23,Codeforces,D24,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E,AC,18,2026-09-03,DataType,,,C,solutions/Codeforces/219158-E.c
 24,Codeforces,D25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F,AC,16,2026-09-04,Library Function,,,C,solutions/Codeforces/219158-F.c
-25,Codeforces,D26,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G,AC,31,2026-09-04,DataType,,,,
-26,Codeforces,D27,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H,AC,33,2026-09-04,Library Function,,,,
+25,Codeforces,D26,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G,AC,31,2026-09-04,DataType,,,C,solutions/Codeforces/219158-G.c
+26,Codeforces,D27,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H,AC,33,2026-09-04,Library Function,,,C,solutions/Codeforces/219158-H.c
 27,Beecrowd,C4,https://judge.beecrowd.com/en/problems/view/1035,AC,19,2026-09-09,Condition (If-else),,,,
 28,Beecrowd,C5,https://judge.beecrowd.com/en/problems/view/1038,AC,28,2026-09-09,Condition (If-else),,,,
 29,Beecrowd,C6,https://judge.beecrowd.com/en/problems/view/1044,AC,12,2026-09-09,Condition (If-else),,,,
 30,Beecrowd,C7,https://judge.beecrowd.com/en/problems/view/1043,AC,26,2026-09-11,Condition (If-else),,,,
 31,Beecrowd,C8,https://judge.beecrowd.com/en/problems/view/1036,AC,31,2026-09-11,Condition (If-else),,,,
-32,Codeforces,C9,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J,AC,18,2026-09-07,Condition (If-else),,,,
+32,Codeforces,C9,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J,AC,18,2026-09-07,Condition (If-else),,,C,solutions/Codeforces/219158-J.c
 33,Codeforces,C10,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Q,AC,33,2026-09-07,Condition (If-else),,,,
 34,Codeforces,C11,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R,AC,25,2026-09-05,Library Function,,,,
-35,Codeforces,C12,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I,AC,15,2026-09-05,Condition (If-else),,,,
+35,Codeforces,C12,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I,AC,15,2026-09-05,Condition (If-else),,,C,solutions/Codeforces/219158-I.c
 36,Beecrowd,C13,https://judge.beecrowd.com/en/problems/view/1037,AC,57,2026-09-11,Condition (If-else),,,,
 37,Beecrowd,C14,https://judge.beecrowd.com/en/problems/view/1046,AC,52,2026-09-11,Condition (If-else),,,,
 38,Codeforces,C15,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P,AC,35,2026-09-15,Condition (If-else),,,,
 39,Codeforces,C16,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/S,AC,55,2026-09-11,Condition (If-else),,,,
-40,Codeforces,C17,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K,AC,67,2026-09-18,Nested Condition,,,,
+40,Codeforces,C17,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K,AC,67,2026-09-18,Nested Condition,,,C,solutions/Codeforces/219158-K.c
 41,Codeforces,C18,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T,AC,120,2026-09-15,Nested Condition,,,,
 42,Beecrowd,C19,https://judge.beecrowd.com/en/problems/view/1040,AC,110,2026-09-18,Nested Condition,,,,
 43,Codeforces,C20,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U,AC,72,2026-09-15,Nested Condition,,,,

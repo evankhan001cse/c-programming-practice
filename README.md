@@ -70,3 +70,9 @@ As I continue practising, I plan to add more examples covering loops, arrays, fu
 ---
 
 This repository is a record of my learning process as a CSE undergraduate.
+
+## Automated Build Check
+
+A GitHub Actions workflow compiles each C source file in the repository root using GCC with C11 and warning flags. It runs on pushes and pull requests targeting `main`, and can also be started manually from the Actions tab.
+
+The four currently published C examples were also compiled locally with the same GCC standard and warning flags.

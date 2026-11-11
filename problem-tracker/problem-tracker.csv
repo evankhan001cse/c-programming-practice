@@ -41,12 +41,12 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 40,Codeforces,C17,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K,AC,67,2026-09-18,Nested Condition,,,C,solutions/Codeforces/219158-K.c
 41,Codeforces,C18,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T,AC,120,2026-09-15,Nested Condition,,,C,solutions/Codeforces/219158-T.c
 42,Beecrowd,C19,https://judge.beecrowd.com/en/problems/view/1040,AC,110,2026-09-18,Nested Condition,,,,
-43,Codeforces,C20,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U,AC,72,2026-09-15,Nested Condition,,,,
+43,Codeforces,C20,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U,AC,72,2026-09-15,Nested Condition,,,,C,solutions/Codeforces/219158-U.c
 44,Beecrowd,C21,https://judge.beecrowd.com/en/problems/view/1042,AC,64,2026-09-12,Nested Condition,,,,
 45,Beecrowd,C22,https://judge.beecrowd.com/en/problems/view/1045,AC,95,2026-09-18,Nested Condition,,,,
 46,Beecrowd,C23,https://judge.beecrowd.com/en/problems/view/1047,AC,55,2026-09-15,Nested Condition,,,,
 47,Beecrowd,C24,https://judge.beecrowd.com/en/problems/view/1051,AC,84,2026-09-18,Nested Condition,,,,
-48,Codeforces,C25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X,AC,60,2026-09-10,Nested Condition,,,,
+48,Codeforces,C25,https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X,AC,60,2026-09-10,Nested Condition,,,,C,solutions/Codeforces/219158-X.c
 49,Beecrowd,C26,https://judge.beecrowd.com/en/problems/view/1059,AC,33,2026-09-17,Nested Condition,,,,
 50,Beecrowd,C27,https://judge.beecrowd.com/en/problems/view/1060,AC,62,2026-09-18,Nested Condition,,,,
 51,Beecrowd,C28,https://judge.beecrowd.com/en/problems/view/1066,AC,51,2026-09-18,Nested Condition,,,,

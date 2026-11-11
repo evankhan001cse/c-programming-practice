@@ -93,4 +93,4 @@ The four currently published C examples were also compiled locally with the same
 
 ## Published Platform Solutions
 
-Source files supplied for online-judge problems are organised under [`solutions/`](./solutions/). Published examples include [Codeforces contest 219158, problem C](./solutions/Codeforces/219158-C.c) and [problem D](./solutions/Codeforces/219158-D.c), both written in C. More solutions will be added as their original source code is collected and matched to the tracker.
+Source files supplied for online-judge problems are organised under [`solutions/`](./solutions/). Published examples include [Codeforces contest 219158, problem C](./solutions/Codeforces/219158-C.c) [problem D](./solutions/Codeforces/219158-D.c), and [problem E](./solutions/Codeforces/219158-E.c), all written in C. More solutions will be added as their original source code is collected and matched to the tracker.

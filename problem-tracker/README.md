@@ -36,3 +36,12 @@ A record of programming problems marked **Accepted (AC)** in my university cours
 - [HackerRank](https://www.hackerrank.com/profile/evankhan01)
 
 This tracker is part of my ongoing learning and problem-solving journey as a CSE undergraduate.
+
+## Source Code Mapping
+
+The CSV now includes two additional columns:
+
+- `Programming_Language`: filled only when the language is known for a supplied source file.
+- `Source_File`: repository-relative path to the published source file.
+
+At present, Codeforces contest 219158 problem C has a supplied C source file. Other rows remain blank until their source code and language are provided.

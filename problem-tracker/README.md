@@ -15,7 +15,7 @@ This folder contains the published AC-labelled problem dataset and a separate, m
 
 - The 98 records contain **97 unique problem URLs**; one beecrowd URL appears twice and both source rows are retained.
 - All 98 rows carry an `AC` label in this published CSV. These labels come from the earlier course-tracker dataset; they have not been independently re-verified against the online judges.
-- The file has exact `Source_File` paths for 36 of the 38 platform source files. The two Codeforces files `219158-U.c` and `219158-X.c` are present in GitHub but are not mapped in the CSV.
+- The file now has exact `Source_File` paths for all 38 platform source files. The two Codeforces files `219158-U.c` and `219158-X.c` were mapped using exact problem URLs and the personal worksheet references `C20` and `C25`.
 - The other 62 records have no exact source-file path recorded.
 
 ## 2. Personal C263065 Workbook Snapshot
@@ -66,7 +66,7 @@ A blank cell means **no status was recorded in that worksheet row**. It does not
 
 ## 5. Source Code Mapping
 
-- Codeforces: 16 C source files are present; 14 have explicit paths in the published tracker CSV. The U and X files still need a confirmed row mapping.
+- Codeforces: all 16 C source files are present and mapped in the published tracker CSV. The U and X mappings use exact problem URL matches from worksheet references `C20` and `C25`.
 - HackerRank: 22 source files are present and mapped: 9 Conditions files reported as C++20 and 13 Loops files reported as C.
 - Ten Loops export entries selected for the existing mapping have score 0.0 even though the course tracker labels their rows AC. Those source files are retained as exported attempts; they are not presented as independently verified accepted versions.
 - Source availability, tracker status, and actual platform verdict are separate facts.

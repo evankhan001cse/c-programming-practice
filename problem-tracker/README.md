@@ -15,8 +15,8 @@ A record of programming problems marked **Accepted (AC)** in my university cours
 - These records contain **97 unique problem URLs**; one URL appears twice in the original tracker and is intentionally retained as a separate record.
 - The source sheet also contains three AC-labelled class exercises without external problem URLs. They are not included in this linked-problem dataset.
 - Verdicts and solve details are transcribed from my course tracker. They have not been independently re-verified against each platform.
-- The original sheet does not reliably specify the programming language for each submission, so this tracker makes no language claim.
-- This repository contains problem links and tracking metadata, not source code or submitted solutions.
+- The original course sheet does not reliably specify the programming language for each submission. Where a matching HackerRank export was available, `Programming_Language` records the language reported by that export.
+- Source code is stored separately under `solutions/` and mapped through the `Source_File` column when an exact problem match is available.
 
 ## CSV fields
 
@@ -44,4 +44,4 @@ The CSV now includes two additional columns:
 - `Programming_Language`: filled only when the language is known for a supplied source file.
 - `Source_File`: repository-relative path to the published source file.
 
-At present, Codeforces contest 219158 problems C through K, P through U, and X have supplied C source files. Other rows remain blank until their source code and language are provided.
+At present, Codeforces contest 219158 problems C through K, P through U, and X have supplied C source files. Twelve HackerRank rows are also mapped: 9 Conditions submissions reported as C++20 and 3 Loops submissions reported as C. The HackerRank files were selected from the uploaded submission export where the score was 1.0. Other rows remain blank until matching source code and language evidence are available.

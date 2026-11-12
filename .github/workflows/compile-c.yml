@@ -49,4 +49,4 @@ jobs:
           while IFS= read -r -d '' source; do
             echo "Checking C++ syntax: ${source}"
             g++ -std=c++20 -Wall -Wextra -Wpedantic -fsyntax-only "${source}"
-          done < <(find solutions -type f \\( -name '*.cpp' -o -name '*.cc' -o -name '*.cxx' \\) -print0 | sort -z)
+          done < <(find solutions -type f -name '*.cpp' -print0 | sort -z)

@@ -1,4 +1,4 @@
-name: Compile C examples
+name: Compile C examples and check platform source syntax
 
 on:
   push:
@@ -9,14 +9,14 @@ on:
 
 jobs:
   compile:
-    name: Build C programs
+    name: Build examples and check submitted-source syntax
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Compile all C examples
+      - name: Compile introductory C examples
         shell: bash
         run: |
           set -euo pipefail
@@ -32,3 +32,21 @@ jobs:
             echo "Compiling ${source}"
             gcc -std=c11 -Wall -Wextra -Wpedantic "${source}" -o "${RUNNER_TEMP}/${source%.c}"
           done
+
+      - name: Syntax-check Codeforces and HackerRank C sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' source; do
+            echo "Checking C syntax: ${source}"
+            gcc -std=c11 -Wall -Wextra -Wpedantic -fsyntax-only "${source}"
+          done < <(find solutions -type f -name '*.c' -print0 | sort -z)
+
+      - name: Syntax-check HackerRank C++ sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' source; do
+            echo "Checking C++ syntax: ${source}"
+            g++ -std=c++20 -Wall -Wextra -Wpedantic -fsyntax-only "${source}"
+          done < <(find solutions -type f \\( -name '*.cpp' -o -name '*.cc' -o -name '*.cxx' \\) -print0 | sort -z)

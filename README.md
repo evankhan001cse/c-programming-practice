@@ -1,13 +1,14 @@
 # C Programming Practice
 
-A beginner-friendly repository documenting my progress while learning C programming. It contains small examples that demonstrate introductory concepts and a separate tracker for university problem-solving practice.
+A beginner-focused repository documenting my progress while learning C programming. It contains introductory C examples, online-judge source files, and clearly separated problem-tracker records.
 
 ## Repository Overview
 
-- **Language:** C
+- **Primary learning language:** C
 - **Level:** Beginner
-- **Published C examples:** 4
-- **Problem tracker:** 98 AC entries recorded in the university course tracker, representing 97 unique problem URLs
+- **Introductory C examples in the repository root:** 4
+- **Platform source files:** 16 Codeforces C files and 22 HackerRank files (13 C, 9 C++20)
+- **Build support:** Makefile and a GCC-based GitHub Actions compile workflow
 
 ## C Programs
 
@@ -22,7 +23,7 @@ A beginner-friendly repository documenting my progress while learning C programm
 
 A C compiler such as GCC is required.
 
-### Build all four examples with GNU Make
+### Build all four introductory examples with GNU Make
 
 From the repository root, run:
 
@@ -30,7 +31,7 @@ From the repository root, run:
 make
 ```
 
-The executables are created in the `build/` directory. To remove generated files:
+Executables are created in the `build/` directory. To remove generated files:
 
 ```bash
 make clean
@@ -38,59 +39,48 @@ make clean
 
 ### Compile one program manually
 
-For example:
-
 ```bash
 gcc -std=c11 -Wall -Wextra -Wpedantic 01-hello-world.c -o hello
-```
-
-Run it on Linux or macOS:
-
-```bash
 ./hello
 ```
 
-On Windows, run the generated executable (for example, `hello.exe`) from the terminal. GNU Make is optional; manual GCC commands work without it.
+GNU Make is optional; manual GCC commands work without it.
 
-## Problem-Solving Tracker
+## Problem-Tracking Data
 
-The [problem-tracker folder](./problem-tracker/) contains the CSV and its documentation.
+The [problem-tracker folder](./problem-tracker/) contains two separate datasets:
 
-| Platform | AC entries in source tracker |
-|---|---:|
-| Beecrowd | 48 |
-| Codeforces | 25 |
-| HackerRank | 25 |
-| **Total** | **98** |
+1. [Published tracker CSV](./problem-tracker/problem-tracker.csv): 98 records and 97 unique URLs. Its AC labels were copied from the original course tracker and are not independently verified platform verdicts.
+2. [C263065 workbook snapshot](./problem-tracker/C263065-workbook-snapshot.csv): an export of the personal `C263065` worksheet only, not the other student worksheets in the workbook.
 
-**Data notes:**
-- The 98 entries contain 97 unique problem URLs; one URL appears twice in the original tracker and is retained as a separate entry.
-- The source sheet includes three AC-labelled class exercises without external problem URLs. They are not part of this linked-problem CSV.
-- Verdicts and solve metadata are transcribed from the course tracker and have not been independently re-verified against each platform.
-- The original course tracker does not reliably identify the programming language used for each submission. For the 12 HackerRank source files now mapped below, language labels come from the uploaded HackerRank submission export.
-- The tracker contains problem links and metadata; source code is published separately under `solutions/` when a matching submission is available.
+The workbook snapshot preserves 470 platform-URL rows, including repeated assignments. It contains 351 unique problem URLs and two distinct contest-page URLs. The worksheet marks 90 rows AC (89 unique URLs); 380 rows are blank. Blank means unknown, not unsolved.
 
-## Learning Roadmap
+All 89 unique AC-marked URLs in the snapshot are present in the published tracker CSV. Eight URLs in the published CSV have blank status in the new snapshot. The snapshot's AC labels are course-tracker data, not independently confirmed online-judge verdicts.
 
-As I continue practising, I plan to add more examples covering loops, arrays, functions, strings, and progressively more involved problem-solving exercises. New topics will be added as I work through them.
+See the [problem-tracker README](./problem-tracker/README.md) for platform breakdowns and mapping caveats.
+
+## Source Code Organisation
+
+- [Codeforces solutions](./solutions/Codeforces/): 16 C source files.
+- [HackerRank solutions](./solutions/HackerRank/): 9 Conditions files in C++20 and 13 Loops files in C.
+- [Solutions index](./solutions/README.md): platform-folder overview.
+
+The CSV has exact `Source_File` paths for 36 of the 38 platform source files. The two Codeforces files `219158-U.c` and `219158-X.c` still need an explicit CSV mapping. Existing source files are preserved; missing mappings are not guessed.
+
+## Automated Build Check
+
+The [GitHub Actions workflow](./.github/workflows/compile-c.yml) compiles each C source file in the repository root using GCC, C11, and warning flags. It runs on pushes and pull requests targeting `main`, and can also be started manually.
+
+The workflow does **not** compile the nested online-judge solution folders or verify platform verdicts. The most recent workflow runs observed during this audit completed successfully.
 
 ## Learning Approach
 
 - Understand the problem before writing code.
 - Test programs with different inputs.
 - Keep examples small and readable.
-- Document progress honestly and improve the code over time.
+- Preserve original submitted source code.
+- Record platform verdicts separately from source-file availability.
 
 ---
 
-This repository is a record of my learning process as a CSE undergraduate.
-
-## Automated Build Check
-
-A GitHub Actions workflow compiles each C source file in the repository root using GCC with C11 and warning flags. It runs on pushes and pull requests targeting `main`, and can also be started manually from the Actions tab.
-
-The four currently published C examples were also compiled locally with the same GCC standard and warning flags.
-
-## Published Platform Solutions
-
-Source files supplied for online-judge problems are organised under [`solutions/`](./solutions/). Published examples include [Codeforces contest 219158, problem C](./solutions/Codeforces/219158-C.c) [problem D](./solutions/Codeforces/219158-D.c), and [problem E](./solutions/Codeforces/219158-E.c), and [problem F](./solutions/Codeforces/219158-F.c), [problem G](./solutions/Codeforces/219158-G.c), [problem H](./solutions/Codeforces/219158-H.c), [problem I](./solutions/Codeforces/219158-I.c), [problem J](./solutions/Codeforces/219158-J.c), and [problem K](./solutions/Codeforces/219158-K.c), [problem P](./solutions/Codeforces/219158-P.c), [problem Q](./solutions/Codeforces/219158-Q.c), [problem R](./solutions/Codeforces/219158-R.c), [problem S](./solutions/Codeforces/219158-S.c), and [problem T](./solutions/Codeforces/219158-T.c), [problem U](./solutions/Codeforces/219158-U.c), and [problem X](./solutions/Codeforces/219158-X.c), all written in C. HackerRank source files are also available in the [HackerRank solutions folder](./solutions/HackerRank/): 9 Conditions submissions in C++20 and 13 Loops submissions in C. Ten of the Loops files are available in the uploaded export but their selected export entries show score 0.0, despite the course tracker marking those problem records AC; this distinction is documented in the HackerRank folder README.
+This repository documents my learning process as a CSE undergraduate.

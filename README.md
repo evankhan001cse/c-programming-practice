@@ -69,9 +69,9 @@ The CSV now has exact `Source_File` paths for all 38 platform source files. The 
 
 ## Automated Build Check
 
-The [GitHub Actions workflow](./.github/workflows/compile-c.yml) compiles each C source file in the repository root using GCC, C11, and warning flags. It runs on pushes and pull requests targeting `main`, and can also be started manually.
+The [GitHub Actions workflow](./.github/workflows/compile-c.yml) compiles each introductory C source file in the repository root using GCC/C11 and warning flags. It also syntax-checks the nested Codeforces/HackerRank C sources (C11) and HackerRank C++ sources (C++20). It runs on pushes and pull requests targeting `main`, and can also be started manually.
 
-The workflow does **not** compile the nested online-judge solution folders or verify platform verdicts. The most recent workflow runs observed during this audit completed successfully.
+The syntax checks confirm that the supplied source files compile at the syntax level; they do **not** run problem test cases or verify online-judge verdicts. The most recent workflow run is triggered by this workflow update and must complete before its result can be reported.
 
 ## Learning Approach
 

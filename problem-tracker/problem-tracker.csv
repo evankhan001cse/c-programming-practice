@@ -52,21 +52,21 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 51,Beecrowd,C28,https://judge.beecrowd.com/en/problems/view/1066,AC,51,2026-09-18,Nested Condition,,,,
 52,Codeforces,L1,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/A,AC,22,2026-09-18,Loop [1 to N],,,,
 53,HackerRank,L2,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/backwards-printing,AC,41,2026-09-18,Loop [Backwards Printing],,,C,solutions/HackerRank/L2.c
-54,HackerRank,L3,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/even-printer,AC,56,2026-09-18,Loop [Even Printer],,,,
-55,HackerRank,L4,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/summation-28,AC,55,2026-09-21,Loop [Summation 1 to N],,,,
+54,HackerRank,L3,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/even-printer,AC,56,2026-09-18,Loop [Even Printer],,,C,solutions/HackerRank/L3.c
+55,HackerRank,L4,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/summation-28,AC,55,2026-09-21,Loop [Summation 1 to N],,,C,solutions/HackerRank/L4.c
 56,Beecrowd,L5,https://judge.beecrowd.com/en/problems/view/1153,AC,33,2026-09-16,Loop [Factorial],,,,
 57,HackerRank,L6,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/print-range-1,AC,55,2026-09-18,Loop [Print Range],,,C,solutions/HackerRank/L6.c
-58,HackerRank,L7,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/odd-number-5-1,AC,15,2026-09-18,Loop [Print Odd numbers],,,,
+58,HackerRank,L7,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/odd-number-5-1,AC,15,2026-09-18,Loop [Print Odd numbers],,,C,solutions/HackerRank/L7.c
 59,HackerRank,L8,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisible-by-5-2-2,AC,45,2026-09-16,Loop [Divisible by 5],,,C,solutions/HackerRank/L8.c
-60,HackerRank,L9,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisibility-by-5-and-7,AC,35,2026-09-23,Loop [Count Divisible by 5 or 7],,,,
+60,HackerRank,L9,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisibility-by-5-and-7,AC,35,2026-09-23,Loop [Count Divisible by 5 or 7],,,C,solutions/HackerRank/L9.c
 61,Beecrowd,L10,https://judge.beecrowd.com/en/problems/view/1072,AC,41,2026-09-21,Loop [Interval count],,,,
 62,Beecrowd,L11,https://judge.beecrowd.com/en/problems/view/1075,AC,45,2026-09-23,Loop [Print % 2],,,,
-63,HackerRank,L12,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-printing-2,AC,67,2026-09-23,Loop [Series Printing 2],,,,
+63,HackerRank,L12,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-printing-2,AC,67,2026-09-23,Loop [Series Printing 2],,,C,solutions/HackerRank/L12.c
 64,Codeforces,L13,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/F,AC,35,2026-09-25,Loop [Multiplication Table],,,,
-65,HackerRank,L14,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/2-to-the-power-division,AC,48,2026-09-25,Loop [2 to the power division],,,,
+65,HackerRank,L14,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/2-to-the-power-division,AC,48,2026-09-25,Loop [2 to the power division],,,C,solutions/HackerRank/L14.c
 66,Codeforces,L15,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K,AC,42,2026-09-18,Loop [Divisors],,,,
 67,Beecrowd,L16,https://judge.beecrowd.com/en/problems/view/1070,AC,61,2026-09-24,Loop [6 odd numbers],,,,
-68,HackerRank,L17,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/a-to-the-power-b,AC,53,2026-09-25,Loop [A to the power B],,,,
+68,HackerRank,L17,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/a-to-the-power-b,AC,53,2026-09-25,Loop [A to the power B],,,C,solutions/HackerRank/L17.c
 69,Beecrowd,L18,https://judge.beecrowd.com/en/problems/view/1155,AC,41,2026-09-25,Loop [S = 1 + 1/2 + 1/3 + … + 1/100],,,,
 70,Beecrowd,L19,https://judge.beecrowd.com/en/problems/view/1156,AC,45,2026-09-25,Loop [S = 1 + 3/2 + 5/4 + 7/8 + ... + 39/?],,,,
 71,Codeforces,L20,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/B,AC,48,2026-09-18,Loop [Print Even Numbers],,,,
@@ -74,10 +74,10 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 73,Codeforces,L22,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/V,AC,78,2026-09-24,Loop [PUM],,,,
 74,Codeforces,L23,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/L,AC,62,2026-09-24,Loop [GCD],,,,
 75,Codeforces,L24,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H,AC,22,2026-09-18,Loop [Prime],,,,
-76,HackerRank,L26,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/concat-and-square,AC,45,2026-11-07,Loop [Concat and Square],,,,
-77,HackerRank,L29,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-sum-2-2,AC,34,2026-11-07,Loop [9 + 99 + 999 + 9999 + …],,,,
+76,HackerRank,L26,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/concat-and-square,AC,45,2026-11-07,Loop [Concat and Square],,,C,solutions/HackerRank/L26.c
+77,HackerRank,L29,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-sum-2-2,AC,34,2026-11-07,Loop [9 + 99 + 999 + 9999 + …],,,C,solutions/HackerRank/L29.c
 78,HackerRank,L30,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/find-lcm-4-2,AC,45,2026-11-07,Loop [Find LCM],,,,
-79,HackerRank,L31,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-printing-2-1,AC,33,2026-11-07,Loop [3n + 1],,,,
+79,HackerRank,L31,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-printing-2-1,AC,33,2026-11-07,Loop [3n + 1],,,C,solutions/HackerRank/L31.c
 80,HackerRank,L32,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/binary-conversion-6-1,AC,30,2026-11-07,Loop [Binary Conversion [fix in hacker rank]],,,,
 81,HackerRank,L33,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/series-sum-7-1,AC,44,2026-11-07,Loop [X - X^3 + X^5 - ...... + X^N],,,,
 82,Codeforces,L37,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/D,AC,44,2026-11-07,Loop [Password (break)],,,,

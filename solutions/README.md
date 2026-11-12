@@ -1,13 +1,12 @@
 # Programming Solutions
 
-This directory contains source files for programming problems solved on online judges.
+This directory contains source files for programming problems solved or practised on online judges.
 
-## Platform folders
+## Platform folders currently present
 
-- [Codeforces](./Codeforces/)
-- [HackerRank](./HackerRank/)
-- [Beecrowd](./Beecrowd/)
+- [Codeforces](./Codeforces/) — 16 C source files.
+- [HackerRank](./HackerRank/) — 22 source files (13 C and 9 C++20).
 
-Each solution is stored with a platform-specific filename. File extensions reflect the language of the submitted source code.
+The tracker also records beecrowd problem links, but there is currently **no Beecrowd source-code folder** in this repository. A platform folder will be added when matching original source files are available.
 
-Only source code that has been supplied and associated with a specific problem is added here. The problem tracker remains the index for problem links and recorded course metadata.
+File extensions reflect the language of each published source file. Source-file availability, tracker status, and actual online-judge verdict are documented separately.

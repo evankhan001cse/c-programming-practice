@@ -1,47 +1,80 @@
 # Programming Problem Tracker
 
-A record of programming problems marked **Accepted (AC)** in my university course tracker.
+This folder contains the published AC-labelled problem dataset and a separate, more recent export of my personal workbook tab. The two files serve different purposes and should not be merged without preserving their source statuses.
 
-## Summary
+## 1. Published AC Tracker CSV
 
-| Platform | AC records |
+[problem-tracker.csv](./problem-tracker.csv)
+
+| Platform | Rows in published CSV |
 |---|---:|
 | Beecrowd | 48 |
 | Codeforces | 25 |
 | HackerRank | 25 |
 | **Total** | **98** |
 
-- **98** linked AC records are included.
-- These records contain **97 unique problem URLs**; one URL appears twice in the original tracker and is intentionally retained as a separate record.
-- The source sheet also contains three AC-labelled class exercises without external problem URLs. They are not included in this linked-problem dataset.
-- Verdicts and solve details are transcribed from my course tracker. They have not been independently re-verified against each platform.
-- The original course sheet does not reliably specify the programming language for each submission. Where a matching HackerRank export was available, `Programming_Language` records the language reported by that export.
-- Source code is stored separately under `solutions/` and mapped through the `Source_File` column when an exact problem match is available.
+- The 98 records contain **97 unique problem URLs**; one beecrowd URL appears twice and both source rows are retained.
+- All 98 rows carry an `AC` label in this published CSV. These labels come from the earlier course-tracker dataset; they have not been independently re-verified against the online judges.
+- The file has exact `Source_File` paths for 36 of the 38 platform source files. The two Codeforces files `219158-U.c` and `219158-X.c` are present in GitHub but are not mapped in the CSV.
+- The other 62 records have no exact source-file path recorded.
 
-## CSV fields
+## 2. Personal C263065 Workbook Snapshot
 
-- `Record`: sequential row number in this published dataset.
+[C263065-workbook-snapshot.csv](./C263065-workbook-snapshot.csv)
+
+This CSV exports only the personal worksheet named `C263065` from the supplied 69-worksheet workbook. It does not publish the other students' worksheets. The two Google Docs references in the personal tab are excluded from this platform-link export.
+
+| Platform | URL rows | Unique problem URLs | AC-marked rows | Unique AC URLs | Blank rows |
+|---|---:|---:|---:|---:|---:|
+| Beecrowd | 74 | 59 | 44 | 43 | 30 |
+| Codeforces | 149 | 111 | 24 | 24 | 125 |
+| HackerRank | 247 | 181 | 22 | 22 | 225 |
+| **Total** | **470** | **351** | **90** | **89** | **380** |
+
+The HackerRank rows also contain two distinct contest-page URLs, which are preserved in the snapshot but are not counted as problem URLs. Repeated URLs are retained as separate worksheet rows. The workbook tab contains 472 URL cells in total; two supplemental Google Docs references are not included in the CSV.
+
+## 3. Cross-Check Between the Two Datasets
+
+- All **97 unique URLs** in the published tracker CSV are present in the C263065 workbook snapshot.
+- **89 unique URLs** are AC-marked in the latest workbook tab; all 89 are present in the published tracker CSV.
+- The remaining **8 unique URLs** from the published tracker CSV have a blank status in the latest workbook tab.
+- There are **254 unique problem URLs** in the workbook snapshot that are not in the published 97-URL tracker CSV. Their blank status is not interpreted as unsolved.
+
+A blank cell means **no status was recorded in that worksheet row**. It does not establish an unsuccessful attempt or an unsolved problem. An AC label in either tracker is not a substitute for the online judge's actual submission record.
+
+## 4. CSV Fields
+
+### Published tracker CSV
+
+- `Record`: sequential row number.
 - `Platform`: platform identified from the problem URL.
-- `Tracker_Reference`: reference label recorded in the source sheet.
+- `Tracker_Reference`: reference label from the source sheet.
 - `Problem_URL`: original problem link.
-- `Verdict_in_Tracker`: verdict recorded in the source sheet.
-- `Solve_Time_Minutes`: solve time recorded in the source sheet.
-- `Solve_Date`: date recorded in the source sheet.
-- `Category`, `Rating`, `Comment`: optional fields copied when present.
+- `Verdict_in_Tracker`: verdict recorded in the source tracker.
+- `Solve_Time_Minutes`, `Solve_Date`: recorded solve metadata.
+- `Category`, `Rating`, `Comment`: optional source fields.
+- `Programming_Language`: included where a language was identified for a supplied source.
+- `Source_File`: repository-relative path where an exact source mapping is available.
 
-## Platform accounts
+### C263065 workbook snapshot
+
+- `Workbook_Row`: original row number in the workbook.
+- `Tracker_Serial`: serial or label recorded in the worksheet.
+- `Platform`, `Record_Type`, `Problem_or_Contest_URL`: URL classification and link.
+- `Track_Sheet_Status`: exact worksheet status; blank values remain blank.
+- `Solve_Time`, `Date`, `Category`, `Rating`, `Comment`: values copied from the personal worksheet where present.
+
+## 5. Source Code Mapping
+
+- Codeforces: 16 C source files are present; 14 have explicit paths in the published tracker CSV. The U and X files still need a confirmed row mapping.
+- HackerRank: 22 source files are present and mapped: 9 Conditions files reported as C++20 and 13 Loops files reported as C.
+- Ten Loops export entries selected for the existing mapping have score 0.0 even though the course tracker labels their rows AC. Those source files are retained as exported attempts; they are not presented as independently verified accepted versions.
+- Source availability, tracker status, and actual platform verdict are separate facts.
+
+## Platform Accounts
 
 - Beecrowd handle: `beecrowd65`
 - [Codeforces](https://codeforces.com/profile/evan982)
 - [HackerRank](https://www.hackerrank.com/profile/evankhan01)
 
-This tracker is part of my ongoing learning and problem-solving journey as a CSE undergraduate.
-
-## Source Code Mapping
-
-The CSV now includes two additional columns:
-
-- `Programming_Language`: filled only when the language is known for a supplied source file.
-- `Source_File`: repository-relative path to the published source file.
-
-At present, Codeforces contest 219158 problems C through K, P through U, and X have supplied C source files. Twenty-two HackerRank rows are mapped: 9 Conditions files reported as C++20 and 13 Loops files reported as C. For 10 Loops files, the selected matching export entry shows score 0.0 even though the course tracker marks the problem AC; these files document the available exported attempts and are not claimed as independently verified accepted versions. Other rows remain blank until matching source code and language evidence are available.
+This tracker records learning activity. Platform verdicts and submission IDs should be added only when they can be checked against actual platform records.

@@ -44,4 +44,4 @@ The CSV now includes two additional columns:
 - `Programming_Language`: filled only when the language is known for a supplied source file.
 - `Source_File`: repository-relative path to the published source file.
 
-At present, Codeforces contest 219158 problems C through K, P through U, and X have supplied C source files. Twelve HackerRank rows are also mapped: 9 Conditions submissions reported as C++20 and 3 Loops submissions reported as C. The HackerRank files were selected from the uploaded submission export where the score was 1.0. Other rows remain blank until matching source code and language evidence are available.
+At present, Codeforces contest 219158 problems C through K, P through U, and X have supplied C source files. Twenty-two HackerRank rows are mapped: 9 Conditions files reported as C++20 and 13 Loops files reported as C. For 10 Loops files, the selected matching export entry shows score 0.0 even though the course tracker marks the problem AC; these files document the available exported attempts and are not claimed as independently verified accepted versions. Other rows remain blank until matching source code and language evidence are available.

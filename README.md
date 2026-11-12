@@ -65,7 +65,7 @@ See the [problem-tracker README](./problem-tracker/README.md) for platform break
 - [HackerRank solutions](./solutions/HackerRank/): 9 Conditions files in C++20 and 13 Loops files in C.
 - [Solutions index](./solutions/README.md): platform-folder overview.
 
-The CSV has exact `Source_File` paths for 36 of the 38 platform source files. The two Codeforces files `219158-U.c` and `219158-X.c` still need an explicit CSV mapping. Existing source files are preserved; missing mappings are not guessed.
+The CSV now has exact `Source_File` paths for all 38 platform source files. The two previously unmapped Codeforces files (`219158-U.c` and `219158-X.c`) were matched to the exact problem URLs in the personal `C263065` worksheet. Existing source files are preserved; missing mappings are not guessed.
 
 ## Automated Build Check
 

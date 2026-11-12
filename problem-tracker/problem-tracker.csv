@@ -51,13 +51,13 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 50,Beecrowd,C27,https://judge.beecrowd.com/en/problems/view/1060,AC,62,2026-09-18,Nested Condition,,,,
 51,Beecrowd,C28,https://judge.beecrowd.com/en/problems/view/1066,AC,51,2026-09-18,Nested Condition,,,,
 52,Codeforces,L1,https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/A,AC,22,2026-09-18,Loop [1 to N],,,,
-53,HackerRank,L2,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/backwards-printing,AC,41,2026-09-18,Loop [Backwards Printing],,,,
+53,HackerRank,L2,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/backwards-printing,AC,41,2026-09-18,Loop [Backwards Printing],,,C,solutions/HackerRank/L2.c
 54,HackerRank,L3,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/even-printer,AC,56,2026-09-18,Loop [Even Printer],,,,
 55,HackerRank,L4,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/summation-28,AC,55,2026-09-21,Loop [Summation 1 to N],,,,
 56,Beecrowd,L5,https://judge.beecrowd.com/en/problems/view/1153,AC,33,2026-09-16,Loop [Factorial],,,,
-57,HackerRank,L6,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/print-range-1,AC,55,2026-09-18,Loop [Print Range],,,,
+57,HackerRank,L6,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/print-range-1,AC,55,2026-09-18,Loop [Print Range],,,C,solutions/HackerRank/L6.c
 58,HackerRank,L7,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/odd-number-5-1,AC,15,2026-09-18,Loop [Print Odd numbers],,,,
-59,HackerRank,L8,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisible-by-5-2-2,AC,45,2026-09-16,Loop [Divisible by 5],,,,
+59,HackerRank,L8,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisible-by-5-2-2,AC,45,2026-09-16,Loop [Divisible by 5],,,C,solutions/HackerRank/L8.c
 60,HackerRank,L9,https://www.hackerrank.com/contests/loops-and-nested-loops/challenges/divisibility-by-5-and-7,AC,35,2026-09-23,Loop [Count Divisible by 5 or 7],,,,
 61,Beecrowd,L10,https://judge.beecrowd.com/en/problems/view/1072,AC,41,2026-09-21,Loop [Interval count],,,,
 62,Beecrowd,L11,https://judge.beecrowd.com/en/problems/view/1075,AC,45,2026-09-23,Loop [Print % 2],,,,
@@ -88,12 +88,12 @@ Record,Platform,Tracker_Reference,Problem_URL,Verdict_in_Tracker,Solve_Time_Minu
 87,Beecrowd,L48,https://judge.beecrowd.com/en/problems/view/1145,AC,55,2026-11-07,"Loop [Sequence Printing 1 to y, x in each line]",,,,
 88,Beecrowd,Switch1,https://judge.beecrowd.com/en/problems/view/1038,AC,33,2026-09-25,Switch,,,,
 89,Beecrowd,Switch2,https://judge.beecrowd.com/en/problems/view/1052,AC,22,2026-09-25,Switch,,,,
-90,HackerRank,IFA-1,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-01-absolute-value/problem,AC,12,2026-09-03,,,,,
-91,HackerRank,IFA-2,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-02-larger-and-smaller/problem,AC,9,2026-09-03,,,,,
-92,HackerRank,IFA-3,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-03-even-or-odd/problem,AC,15,2026-09-03,,,,,
-93,HackerRank,IFA-4,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-04-pass-or-fail/problem,AC,28,2026-09-04,,,,,
-94,HackerRank,IFA-5,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-05-positive-negative-or-zero/problem,AC,36,2026-09-04,,,,,
-95,HackerRank,IFA-7,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-07-the-larger-rectangle/problem,AC,30,2026-09-04,,,,,
-96,HackerRank,IFA-13,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-13-grade-from-an-average/problem,AC,22,2026-09-05,,,,,
-97,HackerRank,IFA-14,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-14-charity-sale-discount/problem,AC,33,2026-09-05,,,,,
-98,HackerRank,IFA-9,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-09-leap-year/problem,AC,39,2026-09-05,,,,,
+90,HackerRank,IFA-1,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-01-absolute-value/problem,AC,12,2026-09-03,,,,C++20,solutions/HackerRank/IFA-1.cpp
+91,HackerRank,IFA-2,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-02-larger-and-smaller/problem,AC,9,2026-09-03,,,,C++20,solutions/HackerRank/IFA-2.cpp
+92,HackerRank,IFA-3,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-03-even-or-odd/problem,AC,15,2026-09-03,,,,C++20,solutions/HackerRank/IFA-3.cpp
+93,HackerRank,IFA-4,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-04-pass-or-fail/problem,AC,28,2026-09-04,,,,C++20,solutions/HackerRank/IFA-4.cpp
+94,HackerRank,IFA-5,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-05-positive-negative-or-zero/problem,AC,36,2026-09-04,,,,C++20,solutions/HackerRank/IFA-5.cpp
+95,HackerRank,IFA-7,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-07-the-larger-rectangle/problem,AC,30,2026-09-04,,,,C++20,solutions/HackerRank/IFA-7.cpp
+96,HackerRank,IFA-13,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-13-grade-from-an-average/problem,AC,22,2026-09-05,,,,C++20,solutions/HackerRank/IFA-13.cpp
+97,HackerRank,IFA-14,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-14-charity-sale-discount/problem,AC,33,2026-09-05,,,,C++20,solutions/HackerRank/IFA-14.cpp
+98,HackerRank,IFA-9,https://www.hackerrank.com/contests/iiuc-cse-1122-conditions/challenges/ifa-09-leap-year/problem,AC,39,2026-09-05,,,,C++20,solutions/HackerRank/IFA-9.cpp

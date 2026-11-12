@@ -71,7 +71,7 @@ The CSV now has exact `Source_File` paths for all 38 platform source files. The 
 
 The [GitHub Actions workflow](./.github/workflows/compile-c.yml) compiles each introductory C source file in the repository root using GCC/C11 and warning flags. It also syntax-checks the nested Codeforces/HackerRank C sources (C11) and HackerRank C++ sources (C++20). It runs on pushes and pull requests targeting `main`, and can also be started manually.
 
-The syntax checks confirm that the supplied source files compile at the syntax level; they do **not** run problem test cases or verify online-judge verdicts. The most recent workflow run is triggered by this workflow update and must complete before its result can be reported.
+The latest run on 12 November 2026 completed successfully: four root C examples were compiled, and 29 nested C files plus 9 nested C++ files passed syntax checks. It reported three non-fatal operator-precedence warnings (two in Codeforces `219158-Q.c` and one in HackerRank `IFA-9.cpp`); the original source files were left unchanged. These checks do **not** run problem test cases or verify online-judge verdicts. [View the successful workflow run](https://github.com/evankhan001cse/c-programming-practice/actions/runs/43185825203).
 
 ## Learning Approach
 

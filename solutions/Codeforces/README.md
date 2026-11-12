@@ -1,6 +1,6 @@
 # Codeforces Solutions
 
-Accepted submissions supplied for this portfolio are stored in this directory.
+This folder contains 16 C source files associated with problems from Codeforces group contest 219158. The source files are preserved as supplied.
 
 ## Published solutions
 
@@ -23,4 +23,10 @@ Accepted submissions supplied for this portfolio are stored in this directory.
 | 219158 | U | C | [219158-U.c](./219158-U.c) |
 | 219158 | X | C | [219158-X.c](./219158-X.c) |
 
-The problem references and course-tracker metadata are recorded in the [problem tracker](../../problem-tracker/problem-tracker.csv). Source files are preserved as supplied.
+Problem links are indexed in the [published problem tracker](../../problem-tracker/problem-tracker.csv) where an exact mapping exists.
+
+## Verification status
+
+The current Codeforces submission history could not be retrieved during this audit. Therefore this repository confirms that the 16 source files are published, but does **not** independently confirm their submission IDs or actual verdicts. The filenames and earlier tracker labels are not used as proof of Accepted status.
+
+No source files have been rewritten or removed.
